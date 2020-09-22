@@ -17,6 +17,8 @@ spec:
             - --k8s-allow-namespace=prometheus-operator
             - --git-url=git@github.com:vladimir-babichev/flux-prometheus-operator
             - --git-branch=master
+            - --git-path=environment/dev
+            - --git-sync-tag=flux-sync-dev
 ---
 apiVersion: rbac.authorization.k8s.io/v1beta1
 kind: RoleBinding
