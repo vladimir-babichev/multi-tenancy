@@ -11,7 +11,7 @@ TEAM_DIR="${REPO_ROOT}/cluster/${TEAM_NAME}/"
 
 mkdir -p ${TEAM_DIR}
 
-cp -r "${REPO_ROOT}/cluster/${TEMPLATE}/." ${TEAM_DIR}
+cp -r "${REPO_ROOT}/template/${TEMPLATE}/." ${TEAM_DIR}
 
 for f in ${TEAM_DIR}*.yaml
 do
